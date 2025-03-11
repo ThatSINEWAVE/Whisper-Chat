@@ -1,0 +1,68 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+	background-color: #f5f5f5;
+}
+
+h1 {
+	color: #333;
+}
+
+.dashboard {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.info-panel {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 15px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logs {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 15px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	height: 600px;
+	overflow-y: auto;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.connect {
+	color: #4CAF50;
+}
+
+.disconnect {
+	color: #F44336;
+}
+
+.message {
+	color: #2196F3;
+}
+
+.error {
+	color: #F44336;
+}
+
+.server {
+	color: #9C27B0;
+}
