@@ -1,0 +1,4 @@
+=== Chat session started at 2025-03-23 02:12:27 ===
+Connected to localhost:9999 as eqwe
+
+[2025-03-23 02:12:27] SYSTEM: eqwe has joined the chat

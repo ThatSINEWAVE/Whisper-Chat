@@ -1,0 +1,7 @@
+=== Chat session started at 2025-03-23 02:10:44 ===
+Connected to localhost:9999 as test
+
+[2025-03-23 02:10:44] SYSTEM: test has joined the chat
+[2025-03-23 02:10:53] test: hello
+[2025-03-23 02:11:13] SYSTEM: test 2 has joined the chat
+[2025-03-23 02:11:21] test 2: hello!

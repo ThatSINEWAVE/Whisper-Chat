@@ -1,0 +1,7 @@
+=== Chat session started at 2025-03-23 02:12:04 ===
+Connected to localhost:9999 as testw21
+
+[2025-03-23 02:12:04] SYSTEM: testw21 has joined the chat
+[2025-03-23 02:12:04] SYSTEM: Welcome to the chat! Here are the most recent messages.
+[2025-03-23 02:12:08] testw21: test
+[2025-03-23 02:12:11] testw21: test

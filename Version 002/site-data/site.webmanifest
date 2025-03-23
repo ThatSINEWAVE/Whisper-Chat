@@ -1,0 +1,26 @@
+{
+  "name": "Whisper Chat by ThatSINEWAVE_",
+  "description": "Lightweight chat server with a web-based monitoring dashboard. This project is in very early development and is not yet ready for production use.",
+  "short_name": "Whisper Chat",
+  "start_url": "/Whisper-Chat",
+  "orientation": "portrait",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "site-data/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "site-data/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "site-data/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}

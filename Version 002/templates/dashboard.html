@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Whisper Chat Server</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="../site-data/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="../site-data/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../site-data/favicon-16x16.png">
+    <link rel="manifest" href="../site-data/site.webmanifest">
+  </head>
+  <body>
+    <h1>Whisper Chat Server Dashboard</h1>
+    <div class="dashboard">
+      <div class="info-panel">
+        <h2>Server Status</h2>
+        <p>Server running on: <strong>{{host}}:{{port}}</strong>
+        </p>
+        <p>Active connections: <strong id="client-count">0</strong>
+        </p>
+        <p>Log file: <strong>{{log_file}}</strong>
+        </p>
+      </div>
+      <div class="info-panel">
+        <h2>Connected Clients</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody id="clients-list">
+            <!-- Client list will be populated here -->
+          </tbody>
+        </table>
+      </div>
+      <div class="logs">
+        <h2>Server Logs</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Timestamp</th>
+              <th>Type</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody id="logs-list">
+            <!-- Logs will be populated here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+  </body>
+</html>
